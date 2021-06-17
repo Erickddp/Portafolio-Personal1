@@ -3,7 +3,7 @@ const typed = new Typed('.typed', {
 		'<i >Desarrollador Web</i>',
     "<i>Contador Publico </i>  ",
     "<i> </i>  ",
-	],
+	], 
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
 	typeSpeed: 60, // Velocidad en mlisegundos para poner una letra,
@@ -60,7 +60,7 @@ const sr = ScrollReveal({
 
 
 /*SCROLL SKILLS*/
- sr.reveal('.skills-subtitle',{interval: 200}); 
+sr.reveal('.skills-subtitle',{interval: 200}); 
 sr.reveal('.skills-text',{interval: 200}); 
 sr.reveal('.skills-header',{interval: 200}); 
 sr.reveal('.skills-img',{delay: 600});
@@ -78,12 +78,12 @@ if (localStorage.getItem("theme")== null) {
 let localData = localStorage.getItem("theme");
 if (localData == "light") {
 	icon.src ="img/moon.png";
-	logo.src="img/logoGedrix.png"
+	logo.src="img/logoerick.png"
 	document.body.classList.remove("dark-theme");
 
 }else if(localData == "dark"){
 	icon.src ="img/sun.png";
-	logo.src="img/gedrix.png"
+	logo.src="img/logoerick.png"
 	document.body.classList.add("dark-theme");
 
 }
@@ -92,11 +92,11 @@ icon.onclick = function (){
 	document.body.classList.toggle("dark-theme");
 	if(document.body.classList.contains("dark-theme")){
 		icon.src ="img/sun.png";
-		logo.src="img/gedrix.png"
+		logo.src="img/logoerick.png"
 		localStorage.setItem("theme", "dark");
 	}else{
 		icon.src ="img/moon.png";
-		logo.src="img/logoGedrix.png"
+		logo.src="img/logoerick.png"
 		localStorage.setItem("theme", "light");
 	}
 }

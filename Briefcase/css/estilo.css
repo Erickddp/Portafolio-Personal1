@@ -201,9 +201,10 @@ img{
 }
 
 .logo{
-  height: 10%;
-   width: 10%;
+  height: 45%;
+  width: 45%;
   cursor:pointer;
+  justify-content: center;
 }
 /*=== Show menu ===*/
 .show{
@@ -217,13 +218,16 @@ img{
 }
 .home-base{
   align-self: center;
+  justify-content: center;
 }
 .home-title{
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  justify-content: center;
 }
 .home-title-color{
   color: var(--first-color);
+  justify-content: center;
 }
 .home-icon-social{
   display: flex;
@@ -232,10 +236,9 @@ img{
 .icon-social-home{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.9rem;
+  font-size: 2.9rem;
   color: var(--letra-color);
-
-  
+  justify-content: center;
 }
 .icon-social-home:hover{
   color: var(--first-color);
@@ -261,22 +264,8 @@ img{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
 
-.button-menu-es{
-  display: inline-block;
-  background-color: #00f5d4;
-  color: rgb(15, 15, 15);
-  padding: .25rem 2 rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-}
-.button-menu-in{
-  display: inline-block;
-  background-color: #fee440;
-  color: rgb(15, 15, 15);
-  padding: .25rem 2 rem;
-  font-weight: var(--font-semi);
-  border-radius: .5rem;
-}
+
+
 /* ===== ABOUT =====*/
 .about-container{
   row-gap: 2rem;
@@ -320,31 +309,85 @@ img{
   box-shadow: 0 4px 25px rgba(142, 149, 247, 0.35);
   color:var(--letra-color)
 }
-.skills__icon-php, .skills__icon-express, .skills__icon-sql, .skills__icon-css{
-  font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--first-color);
-}
-.skills__icon-html, .skills__icon-angular, .skills__icon-laravel{
-  font-size: 2rem;
+/* ===== SKILLS 1  =====*/
+.skills__icon-html{
+  font-size: 3rem;
   margin-right: var(--mb-2);
   color: #f05121;
 }
-.skills__icon-sass{
-  font-size: 2rem;
+/* ===== SKILLS 2 =====*/
+.skills__icon-css{
+  font-size: 3rem;
   margin-right: var(--mb-2);
-  color: #e9b8e6;
+  color:#5182D3;
 }
+/* ===== SKILLS 3 =====*/
 .skills__icon-js{
-  font-size: 2rem;
+  font-size: 3rem;
   margin-right: var(--mb-2);
-  color: #edf03a;
+  color: #F1C40F;
 }
-.skills__icon-node{
-  font-size: 2rem;
+/* ===== SKILLS 4 =====*/
+.fa-python{
+  font-size: 3rem;
   margin-right: var(--mb-2);
-  color: #6eeb97;
+  color:#4A76B9;
 }
+/* ===== SKILLS 5 =====*/
+.fa-microchip{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color: #995C67;
+}
+/* ===== SKILLS 6 =====*/
+.fa-linux{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#D96B1A;
+}
+/* ===== SKILLS 7 =====*/
+.fa-user-secret{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#FA1C02 ;
+}
+/* ===== SKILLS 8 =====*/
+.fa-american-sign-language-interpreting{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#7D87B2 ;
+}
+/* ===== SKILLS 9 =====*/
+.fa-terminal{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#070602 ;
+}
+/* ===== SKILLS 10 
+{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#7D87B2 ;
+}
+=====*/
+
+/* ===== SKILLS 11 
+{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#7D87B2 ;
+}
+=====*/
+
+/* ===== SKILLS 12 
+{
+  font-size: 3rem;
+  margin-right: var(--mb-2);
+  color:#7D87B2 ;
+}
+=====*/
+
+/* ===== SKILLS general  =====*/
 .skills-body{
   display: flex;
   align-items: center;
@@ -359,44 +402,39 @@ img{
   z-index: var(--z-back);
 }
 .skills__html{
-  width: 95%;
-  
-}
-.skills__css{
   width: 90%;
 }
-.skills__sass{
-  width: 50%;
-  
-}
-.skills__js{
-  width: 65%;
-}
-.skills__php{
-  width: 80%;
-}
-.skills__laravel{
-  width: 70%;
-}
-.skills__node{
+.skills__css{
   width: 60%;
 }
-.skills__mysql{
+.skills__js{
+  width: 40%;
+}
+.-python{
+  width: 30%;
+}
+.-microchip{
+  width: 80%;
+}
+.-linux{
+  width: 60%;
+}
+.-user-secret{
+  width: 75%;
+}
+.-american-sign-language-interpreting{
+  width: 68%;
+}
+.-terminal{
   width: 85%;
-}
-.skills__nosql{
-  width: 70%;
-}
-.skills-img{
-  border-radius: .5rem;
 }
 
 
 /* ===== project =====*/
 .project-container{
   row-gap: 2rem;
- 
 }
+
 .project-img{
   box-shadow: 0 4px 25px rgba(142, 149, 247, 0.35);
   border-radius: .5rem;
